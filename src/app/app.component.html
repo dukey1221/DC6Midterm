@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="head"style="margin: 20px;">
+      <h2>Rate The Demon Slayer Movie</h2>
+    </div>
+    <div class="row mt-4" style="margin: 20px;">
+      <div class="col-md-6">
+        <img style="width: 500px;" src="../assets/demon_slayer.jpg" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Kimetsu no Yaiba: Kyōdai no Kizuna</h3>
+        <p>A boy raised by boars, who wears a boar's head, 
+          boards the Infinity Train on a new mission with the Flame Pillar along with another boy who reveals his true power when he sleeps. 
+          Their mission is to defeat a demon who has been tormenting people and killing the demon slayers who oppose it.</p>
+        <ngb-rating [(rate)]="current_rate"></ngb-rating>
+        <hr>
+        <pre>Rate: <b>{{current_rate}}</b> of 10</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
